@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Harry Potter</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/css/Lharry.css" rel="stylesheet" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse  navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">David Angulo</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="@Url.Action("Login","Login")">Inicio</a></li>
+                    <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="banner-section">
+    </section>
+    <section class="post-content-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+                    <h1 class="text-center">Harry Potter y la Camara Secreta</h1>
+                    <ul class="list-inline text-center">
+                        <li>|</li>
+                        <li>J. K. Rowling|</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <p class="lead">Reseña del libro "Harry Potter y la Camara Secreta"</p>
+                    <p>
+                        Mientras Harry espera impaciente en casa de sus insoportabl es tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería, un elfo aparece en su habitación y le advierte de que una amenaza mortal se cierne sobre la escue la. Harry no se lo piensa dos veces y, acompañado de Ron, s e dirige a Hogwarts en un coche volador. Pero, ¿puede un ap rendiz de mago defender la escuela de los malvados que prete nden destruirla? Sin saber que alguien ha abierto la Cámara de los Secretos, dejando escapar una serie de monstruos pel igrosos, Harry y sus amigos Ron y Hermione tendrán que enfr entarse con arañas gigantes, serpientes encantadas, fantasm as enfurecidos y, sobre todo, con la mismísima reencarnaci n de su más temible adversario.
+                    </p>
+
+
+                    <div class="image-block">
+                        <img src="https://erikstore.com/blog/wp-content/uploads/2022/11/20-aniversario-harry-potter-camara-secreta.jpg" width="800" class="img-responsive">
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-1">
+
+
+                    <div class="well">
+                        <h2>J. K. Rowling</h2>
+                        <img src="https://img.txalaparta.eus/Autores/1646-J.K._Rowling.jpg" width="200" class="img-rounded" />
+                        <p>J.K. Rowling es la autora de los siete libros de la saga de Harry Potter, que han vendido más de 500 millones de ejemplares, se han traducido a más de ochenta idiomas y han inspirado ocho películas de gran éxito de taquilla. Rowling es coautora de Harry Potter y el legado maldito, una obra de teatro donde nos presenta a Harry ya adulto. También escribe los guiones de las películas de Animales fantásticos.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div> <!-- /container -->
+    </section>
+
+    <section class="footer-link"></section>
+</body>
+</html>

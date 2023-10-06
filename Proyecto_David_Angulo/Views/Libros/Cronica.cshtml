@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cronicas de Una Muerte</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/css/LCronica.css" rel="stylesheet" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse  navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">David Angulo</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="@Url.Action("Login","Login")">Inicio</a></li>
+                    <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="banner-section">
+    </section>
+    <section class="post-content-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+                    <h1 class="text-center">Crónica de una muerte anunciada</h1>
+                    <ul class="list-inline text-center">
+                        <li>|</li>
+                        <li>Gabriel García Márquez |</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <p class="lead">Reseña del libro "Crónica de una muerte anunciada"</p>
+                    <p>
+                        Acaso sea Crónica de una muerte anunciada la obra más «realista» de Gabriel García Márquez, pues se basa en un hecho histórico acontecido en la tierra natal de escritor. Acaso sea Crónica de una muerte anunciada la obra más «realista» de Gabriel García Márquez, pues se basa en un hecho histórico acontecido en la tierra natal de escritor. Cuando empieza la novela, ya se saber que los hermanos Vicario van a matara a Santiago Nasar -de hecho ya le han matado- para vengar el honor ultrajado de su hermana Ángela, pero el relato termina precisamente en el momento en que Santiago Nasar. El tiempo cíclico, tan utilizado por García Márquez en sus obras, reaparece aquí minuciosamente descompuesto en cada uno de sus momentos, reconstruido prolija y exactamente por el narrador, que va dando cuenta de lo que sucedió mucho tiempo atrás, que avanza y retrocede en su relato y hasta llega mucho tiempo después para contar el destino de los supervivientes. La acción es, a un tiempo, colectiva y personal, clara y ambigua, y atrapa al lector desde un principio, a pesar de que conoce el desenlace de la trama. La dialéctica entre mito y realidad se ve potenciada aquí, una vez más, por una prosa tan cargada de fascinación que las eleva hasta las fronteras de la leyenda.
+                    </p>
+
+
+                    <div class="image-block">
+                        <img src="https://elbuenlibrero.com/app/uploads/2013/09/cronica-muerte-anunciada-banner.jpg" width="800" class="img-responsive">
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-1">
+
+
+                    <div class="well">
+                        <h2>Gabriel García Márquez</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Gabriel_Garcia_Marquez.jpg" width="200" class="img-rounded" />
+                        <p>(Lyon, 1900 - en el mar Tirreno, 1944) Novelista y aviador francés; sus experiencias como piloto fueron a menudo su fuente de inspiración. Tercero de los cinco hijos de una familia de la aristocracia (su padre tenía el título de vizconde), Antoine de Saint-Exupéry vivió una infancia feliz en las propiedades familiares aunque perdió a su progenitor a la edad de cuatro años. Estuvo muy ligado a su madre, cuya sensibilidad y cultura lo marcaron profundamente, y con la que mantuvo una voluminosa correspondencia durante toda su vida. </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div> <!-- /container -->
+    </section>
+
+    <section class="footer-link"></section>
+</body>
+</html>

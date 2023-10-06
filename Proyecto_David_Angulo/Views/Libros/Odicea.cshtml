@@ -1,0 +1,92 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>La iliada y La Odisea</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/css/Lodicea.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+   
+    <nav class="navbar navbar-inverse  navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">David Angulo</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar/">Inicio</a></li>
+                    <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="banner-section">
+    </section>
+    <section class="post-content-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+                    <h1 class="text-center">La iliada y La Odisea</h1>
+                    <ul class="list-inline text-center">
+                        <li>|</li>
+                        <li>Homero |</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <p class="lead">Reseña del libro "La iliada y La Odisea"</p>
+                    <p>
+                        *La Ilíada y La Odisea - Anotado* Libro con: - La Ilíada y La Odisea - Un texto sobre la caida de Troya de Ovidio La Ilíada trata de la cólera humana, de sus causas, sus consecuencias, y de su apaciguamiento. Todo esto tiene como ambiente de fondo el último año de la toma de Troya, también conocida como Ilión entre los griegos.
+                    </p>
+
+
+                    <div class="image-block">
+                        <img src="https://www.aboutespanol.com/thmb/lABlGI0z18ZRvviE-DhOexnKk80=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/el-rapto-de-elena-de-Gavin-Hamilton-597bc25b5f9b58928bda2b01.jpg" width="800" class="img-responsive">
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-1">
+
+
+                    <div class="well">
+                        <h2>Homero</h2>
+                        <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQYCo6PbKpuqXvg71-nZonMrAt0qHDTVD_iHvmIbfKE-dI9QVOKfSjmt42eoqdStP9-" width="200" class="img-rounded" />
+                        <p>Homero es el nombre dado al aedo a quien tradicionalmente se atribuye la autoría de los principales poemas épicos griegos: la Ilíada y la Odisea</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div> <!-- /container -->
+
+
+    </section>
+
+    <section class="footer-link"></section>
+</body>
+</html>
+

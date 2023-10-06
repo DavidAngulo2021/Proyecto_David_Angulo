@@ -1,0 +1,284 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/css/Menu.css" rel="stylesheet" />
+    <link href="~/Content/css/Inicio.css" rel="stylesheet" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+
+
+    <img src="https://static.vecteezy.com/system/resources/previews/007/651/627/non_2x/bookshelf-with-children-s-books-literature-for-boys-children-s-reading-colorful-books-covers-banner-for-school-library-bookstore-fair-festival-vector.jpg" width="100%" />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <label asp-for="AnticipoId" class="control-label col-sm-7 text-right"> TOP LIBROS POPULARES</label>
+
+    <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
+        <span></span>
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+
+            <ul class="navbar-nav ml-md-auto d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Inicio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                @*<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                        <li class="dropdown-item" href="#"><a>Action 2 A</a></li>
+                        <li class="dropdown-item" href="#"><a>Action 2 B</a></li>
+                        <li class="dropdown-item" href="#"><a>Action 2 C</a></li>
+
+                    </ul>
+                </li>*@
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Cerrar Sesion
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    @*//////*@
+
+    <div class="container cta-100 ">
+        <div class="container">
+            <div class="row blog">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2019</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://images.cdn2.buscalibre.com/fit-in/360x360/83/de/83de14b2333750839506db2a25ff482b.jpg"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("Princi","Libros")" tabindex="0">
+                                                        <h5>El principito</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> Antoine De Saint-Exupéry </p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>He aquí mi secreto, que no puede ser más simple: solo con el corazón se puede ver bien; lo esencial es invisible a los ojos". Autorretrato y obra testamentaria, fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("Princi","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2014</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://www.biografiasyvidas.com/reportaje/garcia_marquez/fotos/cronica.jpg"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("Cronica","Libros")" tabindex="0">
+                                                        <h5>Cronica de una muerte anunciada</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> Gabriel García Márquez</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Acaso sea Crónica de una muerte anunciada la obra más «realista» de Gabriel García Márquez, pues se basa en un hecho histórico acontecido en la tierra natal de escritor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("Cronica","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2016</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://images.cdn3.buscalibre.com/fit-in/360x360/f5/dc/f5dc463a40d49d34c79cf41895a0fabe.jpg"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("Odicea","Libros")" tabindex="0">
+                                                        <h5>La iliada y La Odisea</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> Homero</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>La Ilíada y La Odisea - Anotado* Libro con: - La Ilíada y La Odisea - Un texto sobre la caida de Troya de Ovidio La Ilíada trata de la cólera humana</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("Odicea","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2023</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("CienAños","Libros")" tabindex="0">
+                                                        <h5>Cien Años De Soledad</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> Gabriel García Márquez</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Señalada como «catedral gótica del lenguaje», este clásico del siglo XX es el enorme y espléndido tapiz de la saga de la familia Buendía, en la mítica aldea de Macondo. Un referente imprescindible de la vida y la narrativa latinoamericana. «Muchos años después, frente al pelotón de fusilamiento</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("CienAños","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2014    </span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://www.elejandria.com/covers/Doce_anos_de_esclavitud-Solomon_Northup-lg.png"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("Esclavitud","Libros")" tabindex="0">
+                                                        <h5>12 Años De Exclavitud</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> Solomon Northup</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>¿Quién había oído hablar de Solomon Northup antes de que se supiera que se estrenaría en el cine Doce Años de Esclavitud?</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("Esclavitud","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">2020</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt="" src="https://images.cdn2.buscalibre.com/fit-in/360x360/ad/4d/ad4df4ba516014a9fc39a0288a70957f.jpg"> </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="@Url.Action("Harry","Libros")" tabindex="0">
+                                                        <h5>Harry Potter</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                                    <p><i class="fa fa-user-o"></i> J. K. Rowling</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Mientras Harry espera impaciente en casa de sus insoportabl es tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería,</p>
+                                                </div>
+                                                <div class="mt"> <a href="@Url.Action("Harry","Libros")" tabindex="0" class="btn bg-blue-ui white read">Ver mas...</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+

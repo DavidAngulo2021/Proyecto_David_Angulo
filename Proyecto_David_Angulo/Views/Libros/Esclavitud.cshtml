@@ -1,0 +1,87 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Doce Años de Esclavitud</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="~/Content/css/LdoceAños.css" rel="stylesheet" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse  navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">David Angulo</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="@Url.Action("Login","Login")">Inicio</a></li>
+                    <li>@Html.ActionLink("Cerrar Sesion", "CerrarSesion", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <section class="banner-section">
+    </section>
+    <section class="post-content-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+                    @*<h1 class="text-center">Doce Años de Esclavitud</h1>*@
+                    <ul class="list-inline text-center">
+                        <li>|</li>
+                        @*<li>Antoine De Saint-Exupéry |</li>*@
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <p class="lead">Reseña del libro "Doce Años de Esclavitud"</p>
+                    <p>¿Quién había oído hablar de Solomon Northup antes de que se supiera que se estrenaría en el cine Doce Años de Esclavitud? ¿Por qué la vida de un hombre, aparentemente insignificante para la Historia, trasciende más de cien años hasta llegar a la gran pantalla el pasado 13 de diciembre? Solomon Northup nació negro en una de las épocas más despiadadas de la Historia de Norteamérica. Nació libre pero su condición de piel le convirtió en esclavo en 1843. Antes de aquel año, Solomon Northup tenía una familia, un pequeño patrimonio en Nueva York, era un hombre culto y se ganaba la vida como músico. Un encuentro desafortunado con dos mentes brutales y un engaño, le condenaron a la esclavitud en una plantación de Louisiana, convirtiendo en un infierno los siguientes 12 años de su vida. Una vez liberado, quiso denunciar a quienes lo vendieron como esclavo una década atrás pero aún la justicia no estaba de su lado y todavía una ley impedía a un hombre negro demandar a un hombre blanco por lo que aquellos seres despiadados que lo traicionaron, humillaron y sometieron, salieron impunes. A Solomon Northup solo le quedó el recurso de escribir su historia en un libro que narraba el día a día de sus años como esclavo. El libro, desgarrador y emocionante, verdadero homenaje al instinto de supervivencia y superación del ser humano, llegó a ser un superventas y se convirtió, desde ese instante, en un activo abolicionista. Hoy, a pocos días de la muerte de Nelson Mandela, icono de la lucha contra el Apartheid en Sudáfrica y en el mundo, y con motivo del éxito rotundo de la conmovedora y brutal cinta del británico Steve McQueen, Barataria publica la obra literaria homónima de Solomon Northup, Doce Años de Esclavitud, que regresa en una edición española cuidada hasta en el mínimo detalle para hacernos reflexionar sobre nuestra perversa condición humana y nuestro a veces frívolo concepto de los derechos humanos. Tal vez alguno no podremos evadir el sentimiento de vergüenza porque, no habiendo escogido nacer en "Occidente" nos lo pusieron fácil al ser así.</p>
+
+                    <div class="image-block">
+                        <img src="https://elcomercio.pe/resizer/GiWzhBwSvPZsYWKE2gU2R4T-4fI=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YHXZKD3VCJDQVHO25T64LIUYZ4.jpg" class="img-responsive">
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-1">
+
+
+                    <div class="well">
+                        <h2>Solomon Northup</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Solomon_Northup_001_%28cropped%29.jpg" width="200" class="img-rounded" />
+                        <p>Solomon Northup ​​ fue un violinista y abolicionista estadounidense negro que nació libre y adquirió renombre por ser secuestrado en 1841, cuando acudía a una entrevista de trabajo. Mientras acompañaba a sus supuestos empleadores al Distrito de Columbia, estos lo narcotizaron y vendieron como esclavo.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div> <!-- /container -->
+    </section>
+
+    <section class="footer-link"></section>
+</body>
+</html>

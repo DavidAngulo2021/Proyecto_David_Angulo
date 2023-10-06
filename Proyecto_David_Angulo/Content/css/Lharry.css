@@ -1,0 +1,54 @@
+﻿.navbar {
+    margin-bottom: 0;
+}
+
+section {
+    width: 100%;
+    float: left;
+}
+
+.banner-section {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c1c84ef-bb56-4b60-b6a1-36146b6e352c/d9erz51-5871b720-881c-4766-abc8-98e88c6faa75.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBjMWM4NGVmLWJiNTYtNGI2MC1iNmExLTM2MTQ2YjZlMzUyY1wvZDllcno1MS01ODcxYjcyMC04ODFjLTQ3NjYtYWJjOC05OGU4OGM2ZmFhNzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h9rE1HXQRJwBvM1jusncHso9aNvEauJZFQNsUQqhooQ");
+    background-size: cover;
+    height: 380px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-position: 0;
+}
+
+.post-title-block {
+    padding: 100px 0;
+}
+
+    .post-title-block h1 {
+        color: #fff;
+        font-size: 85px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .post-title-block li {
+        font-size: 20px;
+        color: #fff;
+    }
+
+.image-block {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    float: left;
+    width: 100%;
+    background: #222222;
+    text-align: center;
+    padding: 30px;
+}
+
+    .footer-link a {
+        color: #A9FD00;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
